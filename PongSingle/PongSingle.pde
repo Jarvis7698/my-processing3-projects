@@ -17,7 +17,7 @@ void setup() {
   size(1200, 500);
   textSize(32);
   
-  ding = new SoundFile(this, "pussy.mp3");  //ohno, ding, oof, p**
+  ding = new SoundFile(this, "ding.mp3");  //ohno, ding, oof, p**
   hits = new SoundFile(this, "hits.mp3");  //hits, switch
 
   left = new Paddle(true);
